@@ -179,7 +179,7 @@ input.search-field {
 }
 
 .landing-background {
-  height: 30vh;
+  height: 300px;
   background: linear-gradient(
     70deg,
     rgba(0, 0, 0, 0) 50%,
@@ -207,6 +207,7 @@ input.search-field {
 .logo-overlay > .slogan {
   flex-basis: 10%;
   margin-right: var(--mainPadding);
+  margin-top: var(--mainMargin);
   height: fit-content;
   align-self: flex-start;
 }
