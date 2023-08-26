@@ -179,7 +179,7 @@ input.search-field {
 }
 
 .landing-background {
-  height: 40vh;
+  height: 30vh;
   background: linear-gradient(
     70deg,
     rgba(0, 0, 0, 0) 50%,
@@ -249,6 +249,7 @@ input.search-field {
 .categories > .container {
   width: 90%;
   margin: auto;
+  margin-top: var(--mainMargin);
   border: solid 3px #e7bc55;
   border-radius: var(--borderRadius);
   background-color: white;
@@ -257,8 +258,8 @@ input.search-field {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: var(--mainPadding);
-  position: relative;
-  bottom: 50px;
+  /* position: relative;
+  bottom: 50px; */
 }
 
 .categories .category {
