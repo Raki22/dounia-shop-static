@@ -246,6 +246,15 @@ input.search-field {
   );
 } */
 
+/* ********************************* Ad Section *********************************** */
+section.ichhar {
+  margin: var(--mainMargin) 0;
+}
+
+section.ichhar > img {
+  display: block;
+  width: 100%;
+}
 /* ********************************* Catergories Section *********************************** */
 .categories > .container {
   width: 90%;
